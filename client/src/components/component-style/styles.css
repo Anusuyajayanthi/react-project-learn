@@ -1,0 +1,23 @@
+.common-container {
+    max-width: 1140px;
+    margin: auto;
+    background-color: #e5e0e0;
+    padding: 30px;
+    height: 100vh;
+
+}
+.form-parent {
+    max-width: 470px;
+    margin: auto;
+    padding: 20px;  
+}
+.input-parent label{
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.input-parent input {
+    height: 40px;
+    width: 100%;
+}
