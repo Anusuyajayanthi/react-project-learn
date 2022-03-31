@@ -4,20 +4,62 @@
     background-color: #e5e0e0;
     padding: 30px;
     height: 100vh;
-
 }
+
 .form-parent {
     max-width: 470px;
     margin: auto;
-    padding: 20px;  
+    padding: 20px;
 }
-.input-parent label{
+
+.input-parent label {
     display: block;
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 10px;
 }
-.input-parent input {
+
+.input-parent input,
+.input-parent select {
     height: 40px;
     width: 100%;
+}
+
+.password-icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-show {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.btn-parent {
+    text-align: center;
+}
+
+.primary-mv-btn {
+    background-color: #303030;
+    color: #fff;
+    min-width: 150px;
+    padding: 20px;
+    text-align: center;
+    min-height: 40px;
+    border-radius: 30px;
+}
+
+.mv-btn-parent {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.error-msg {
+    color: red;
+}
+
+.input-textarea {
+    min-height: 100px;
 }
