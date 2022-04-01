@@ -3,6 +3,7 @@ import { ButtonText } from "../../components/ButtonText";
 import { InputText } from "../../components/InputText";
 import { SelectReact } from "../../components/SelectReact";
 import { SelectText } from "../../components/SelectText";
+import { colourOptions, selectItems } from "./common";
 
 interface LoginProps {}
 
@@ -42,8 +43,8 @@ export const Login: React.FC<LoginProps> = () => {
         name="description"
         placeholder="Enter description"
       />
-      <SelectText label="Enter option"/>
-      <SelectReact />
+      <SelectText userdata={selectItems} label="Enter option"/>
+      <SelectReact colourOptionValue={colourOptions} />
       <div className=" mv-btn-parent">
         <ButtonText
           type="submit"
